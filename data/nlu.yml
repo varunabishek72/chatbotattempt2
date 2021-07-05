@@ -1,0 +1,406 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing    
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible   
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: covi_self                  
+  examples: |
+    - Best Website To Buy Coviself From
+    - Where TO Buy Coviself From?
+    - How To Buy Covi Self?
+    - Where Should I Buy The Coviself Kit From?
+
+- intent: medicine
+  examples: |
+    - Cheapest Way To Buy Medicines
+    - How to buy medicines online?
+    - best website to buy medicines
+    - where should i buy medicine from?
+
+- intent: covid_test
+  examples: |
+    - How to get a covid test?
+    - Which website should i get a covid test from?
+    - Where should i get a covid test done from?
+    - Where should i get a test done from?
+    - Where can I get a covid test done?
+    - where can i get a test done?
+    - 
+- intent: covid_vaccine
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    -  
+    
+- intent: faq/covid_awarness
+  examples: |
+    - How can i spread awarness about covid?
+    - how can i spread awarness about covid-19?
+    - what is covid?
+    - what is covid-19?
+    - what are things one can do to protect themselves from covid?
+    - how can covid be prevented?
+    - how can we start preventing covid?
+    - I need to know what to do to protect my self from covid
+    - what are the things i need to know to prevent covid?
+    - could i know How can i spread awarness about covid?
+    - could i know how can i spread awarness about covid-19?
+    - could i know what is covid?
+    - could i know what is covid-19?
+    - could i know what are things one can do to protect themselves from covid?
+    - could i know how can covid be prevented?
+    - could i know how can we start preventing covid?
+    - could i know I need to know what to do to protect my self from covid
+    - could i know what are the things i need to know to prevent covid?
+    - can i know how can i spread awarness about covid?
+    - can i know  how can i spread awarness about covid-19?
+    - can i know  what is covid?
+    - can i know what is covid-19?
+    - can i know what are things one can do to protect themselves from covid?
+    - can i know how can covid be prevented?
+    - can i know how can we start preventing covid?
+    - can i know I need to know what to do to protect my self from covid
+    - can i know what are the things i need to know to prevent covid?
+
+- intent: faq/covid_awarness2
+  examples: |
+    - How does covid spread?
+    - how does covid-19 spread?
+    - how does coronavirus spread?
+    - what is the incuabation period of covid?
+    - what is the incubation period of covid-19?
+    - what is the incubation period of coronavirus?
+    - how did covid-19 start?
+    - how did covid start?
+    - how did coronavirus start?
+    - can i know How does covid spread?
+    - can i know how does covid-19 spread?
+    - can i know how does coronavirus spread?
+    - can i know what is the incuabation period of covid?
+    - can i know what is the incubation period of covid-19?
+    - can i know what is the incubation period of coronavirus?
+    - can i know how did covid-19 start?
+    - can i know how did covid start?
+    - can i know how did coronavirus start?
+    - could i know How does covid spread?
+    - could i know how does covid-19 spread?
+    - could i know how does coronavirus spread?
+    - could i know what is the incuabation period of covid?
+    - could i know what is the incubation period of covid-19?
+    - could i know what is the incubation period of coronavirus?
+    - could i know how did covid-19 start?
+    - could i know how did covid start?
+    - could i know how did coronavirus start?
+
+- intent: faq/covid_awarness3
+  examples: |
+    - how is covid-19 diagnosed?
+    - how is coronavirus diagnosed?
+    - how is covid diagnosed?
+    - How is it treated?
+    - how is covid treated?
+    - how is covid-19 treated?
+    - how is coronavirus treated?
+    - how is it diagnosed?
+    - how is covid-19 diagnosed?
+    - how is covid diagnosed?
+    - how is coronavirus diagnosed?
+    - can it cause death?
+    - can covid-19 cause death?
+    - can covid cause death?
+    - can coronavirus cause death?
+    - can i know how is covid-19 diagnosed?
+    - can i know how is coronavirus diagnosed?
+    - can i know how is covid diagnosed?
+    - can i know How is it treated?
+    - can i know how is covid treated?
+    - can i know how is covid-19 treated?
+    - can i know how is coronavirus treated?
+    - can i know how is it diagnosed?
+    - can i know how is covid-19 diagnosed?
+    - can i know how is covid diagnosed?
+    - can i know how is coronavirus diagnosed?
+    - can i know whether it can cause death?
+    - can i know whether covid-19 can cause death?
+    - can i know whether covid can cause death?
+    - can i know whether coronavirus can cause death?
+
+- intent: faq/covid_awarness4
+  examples: |
+    - Why is it called coronavirus?
+    - how does the coronavirus look?
+    - how did coronavirus came up with it's name?
+    - Like which object does the coronavirus's ouutside surface looks like?
+    - Like which object does the coronavirus's outside surface of the virus looks like?
+    - Can i know Why is it called coronavirus?
+    - Can i know how does the coronavirus look?
+    - Can i knowhow did coronavirus came up with it's name?
+    - Can i know Like which object does the coronavirus's ouutside surface looks like?
+    - Can i know Like which object does the coronavirus's outside surface of the virus looks like?
+    - could i know Why is it called coronavirus?
+    - could i know how does the coronavirus look?
+    - could i know how did coronavirus came up with it's name?
+    - could i know Like which object does the coronavirus's ouutside surface looks like?
+    - could i know Like which object does the coronavirus's outside surface of the virus looks like?
+    - Is this coronavirus  different from sars?
+    - Are there different variants of Covid-19?
+    - Are there different variants of Covid?
+    - Are there different variants of this coronavirus?
+    - what are some names of the different covid variants in the world?
+    - what are some names of the different covid-19 variants in the world?
+    - what are some names of the different this coronavirus's variants in the world?
+    - In which countries have different variants of covid appear?
+    - In which countries have different variants of covid-19 appear?
+    - In which countries have different variants of this coronavirus appear?
+    - could i know Are there different variants of Covid-19?
+    - could i know Are there different variants of Covid?
+    - could i know Are there different variants of this coronavirus?
+    - could i know what are some names of the different covid variants in the world?
+    - could i know what are some names of the different covid-19 variants in the world?
+    - could i know what are some names of the different this coronavirus's variants in the world?
+    - could i know In which countries have different variants of covid appear?
+    - could i know In which countries have different variants of covid-19 appear?
+    - could i know  In which countries have different variants of this coronavirus appear?
+    - Can i know whether Is this coronavirus  different from sars?
+    - Can i know whether there Are there different variants of Covid-19?
+    - Can i know whether there Are there different variants of Covid?
+    - Can i know whether there Are there different variants of this coronavirus?
+    - Can i know what are some names of the different covid variants in the world?
+    - Can i know what are some names of the different covid-19 variants in the world?
+    - Can i know what are some names of the different this coronavirus's variants in the world?
+    - Can i know In which countries have different variants of covid appear?
+    - Can i know In which countries have different variants of covid-19 appear?
+    - Can i know In which countries have different variants of this coronavirus appear?
+
+- intent: faq/symptoms_covid
+  examples: |
+   - What are the symptoms of Covid?
+   - what are the symptoms of covid-19?
+   - what are the symptoms of coronavirus?
+   - what should i do if i have a symptom?
+   - how can i see whether i have covid or not?
+   - how can i see whether i have covid-19 or not?
+   - how can i see whether i have coronavirus or not?
+   - what to do if i don't feel any symptoms, even though i've been in contact with covid-19 positve person?
+   - what to do if i don't feel any symptoms, even though i've been in contact with covid positve person?
+   - what to do if i don't feel any symptoms, even though i've been in contact with coronavirus positve person?
+   - Can i know What are the symptoms of Covid?
+   - Can i know what are the symptoms of covid-19?
+   - Can i know what are the symptoms of coronavirus?
+   - Can i know what should i do if i have a symptom?
+   - Can i know how can i see whether i have covid or not?
+   - Can i know how can i see whether i have covid-19 or not?
+   - Can i know how can i see whether i have coronavirus or not?
+   - Can i know what to do if i don't feel any symptoms, even though i've been in contact with covid-19 positve person?
+   - Can i know what to do if i don't feel any symptoms, even though i've been in contact with covid positve person?
+   - Can i know what to do if i don't feel any symptoms, even though i've been in contact with coronavirus positve person?
+   - Could i know What are the symptoms of Covid?
+   - Could i know what are the symptoms of covid-19?
+   - Could i know what are the symptoms of coronavirus?
+   - Could i know what should i do if i have a symptom?
+   - Could i know how can i see whether i have covid or not?
+   - Could i know how can i see whether i have covid-19 or not?
+   - Could i know how can i see whether i have coronavirus or not?
+   - Could i know what to do if i don't feel any symptoms, even though i've been in contact with covid-19 positve person?
+   - Could i know what to do if i don't feel any symptoms, even though i've been in contact with covid positve person?
+   - Could i know what to do if i don't feel any symptoms, even though i've been in contact with coronavirus positve person?
+
+- intent: faq/thing_2know
+  examples: |
+   - what are things to know when choosing covid-related products?
+   - what are the thing to know when choosing covid-related products like masks and so on?
+   - what are things that one should keep in mind when choosing covid-related products?
+   - what are the things one should know when choosing covid-related products like mask and so on?
+   - what are the things one should know when choosing covid related products?
+   - what are the things that one should keep in mind when choosing a covid product?
+   - what are things I should know when choosing covid-related products?
+   - what are the thing I should know when choosing covid-related products like masks and so on?
+   - what are things that I should keep in mind when choosing covid-related products?
+   - what are the things I should know when choosing covid-related products like mask and so on?
+   - what are the things I should know when choosing covid related products?
+   - what are the things that I should keep in mind when choosing a covid product?
+   - what are things we should know when choosing covid-related products?
+   - what are the thing we should know when choosing covid-related products like masks and so on?
+   - what are things that we should keep in mind when choosing covid-related products?
+   - what are the things we should know when choosing covid-related products like mask and so on?
+   - what are the things we should know when choosing covid related products?
+   - what are the things that we should keep in mind when choosing a covid product?
+   - can i know what are things to know when choosing covid-related products?
+   - can i know what are the thing to know when choosing covid-related products like masks and so on?
+   - can i know what are things that one should keep in mind when choosing covid-related products?
+   - can i know what are the things one should know when choosing covid-related products like mask and so on?
+   - can i know what are the things one should know when choosing covid related products?
+   - can i know what are the things that one should keep in mind when choosing a covid product?
+   - can i know what are things I should know when choosing covid-related products?
+   - can i know what are the thing I should know when choosing covid-related products like masks and so on?
+   - can i know what are things that I should keep in mind when choosing covid-related products?
+   - can i know what are the things I should know when choosing covid-related products like mask and so on?
+   - can i know what are the things I should know when choosing covid related products?
+   - can i know what are the things that I should keep in mind when choosing a covid product?
+   - can i know what are things we should know when choosing covid-related products?
+   - can i know what are the thing we should know when choosing covid-related products like masks and so on?
+   - can i know what are things that we should keep in mind when choosing covid-related products?
+   - can i know what are the things we should know when choosing covid-related products like mask and so on?
+   - can i know what are the things we should know when choosing covid related products?
+   - can i know what are the things that we should keep in mind when choosing a covid product?
+   - could i know what are things to know when choosing covid-related products?
+   - could i know what are the thing to know when choosing covid-related products like masks and so on?
+   - could i know what are things that one should keep in mind when choosing covid-related products?
+   - could i know what are the things one should know when choosing covid-related products like mask and so on?
+   - could i know what are the things one should know when choosing covid related products?
+   - could i know what are the things that one should keep in mind when choosing a covid product?
+   - could i know what are things I should know when choosing covid-related products?
+   - could i know what are the thing I should know when choosing covid-related products like masks and so on?
+   - could i know what are things that I should keep in mind when choosing covid-related products?
+   - could i know what are the things I should know when choosing covid-related products like mask and so on?
+   - could i know what are the things I should know when choosing covid related products?
+   - could i know what are the things that I should keep in mind when choosing a covid product?
+   - could i know what are things we should know when choosing covid-related products?
+   - could i know what are the thing we should know when choosing covid-related products like masks and so on?
+   - could i know what are things that we should keep in mind when choosing covid-related products?
+   - could i know what are the things we should know when choosing covid-related products like mask and so on?
+   - could i know what are the things we should know when choosing covid related products?
+   - could i know what are the things that we should keep in mind when choosing a covid product?
+
+- intent: faq/articles_change
+  examples: |
+   - suggest me some articles
+   - suggest some articles to me
+   - Suggest some articles that are very interesting
+   - Suggest articles that can change my life
+   - Articles to me
+   - can you suggest me some articles?
+   - can i read some articles?
+   - can you provide the link for the articles?
+   - can i have the link for reading the articles?
+   - could you suggest me some articles?
+   - could you suggest some articles to me?
+   - could you Suggest some articles that are very interesting?
+   - could you Suggest articles that can change my life?
+   - could i read some articles?
+   - could you provide the link for the articles?
+   - could i have the link for reading the articles?
+
+
+- intent: faq/hospitals_vaccienters
+  examples: |
+   - list of all hospitals and vaccination centres and testing centres
+   - list of all hospitals which treat covid, vaccination centres and testing centres
+   - list of all hospitals, vaccination centres which vaccinate people and testing centres
+   - list of all hospitals, vaccination centres and testing centres which does rtpcr test
+   - list of all hospitals which treat covid, vaccination centres which vaccinate people and testing centres which test people for covid
+   - list of all hospitals and vaccination centres and testing centres in Chennai
+   - list of all hospitals which treat covid, vaccination centres and testing centres in Chennai
+   - list of all hospitals, vaccination centres which vaccinate people and testing centres in Chennai
+   - list of all hospitals, vaccination centres and testing centres which does rtpcr test in Chennai
+   - list of all hospitals which treat covid, vaccination centres which vaccinate people and testing centres which test people for covid in Chenna
+   - can i know the list of all hospitals and vaccination centres and testing centres
+   - can i know the list of all hospitals which treat covid, vaccination centres and testing centres
+   - can i know the list of all hospitals, vaccination centres which vaccinate people and testing centres
+   - can i know the list of all hospitals, vaccination centres and testing centres which does rtpcr test
+   - can i know the list of all hospitals which treat covid, vaccination centres which vaccinate people and testing centres which test people for covid
+   - can i know the list of all hospitals and vaccination centres and testing centres in Chennai
+   - can i know the list of all hospitals which treat covid, vaccination centres and testing centres in Chennai
+   - can i know the list of all hospitals, vaccination centres which vaccinate people and testing centres in Chennai
+   - can i know the list of all hospitals, vaccination centres and testing centres which does rtpcr test in Chennai
+   - can i know the list of all hospitals which treat covid, vaccination centres which vaccinate people and testing centres which test people for covid in Chennai
+   - could i know the list of all hospitals and vaccination centres and testing centres
+   - could i know the list of all hospitals which treat covid, vaccination centres and testing centres
+   - could i know the list of all hospitals, vaccination centres which vaccinate people and testing centres
+   - could i know the list of all hospitals, vaccination centres and testing centres which does rtpcr test
+   - could i know the list of all hospitals which treat covid, vaccination centres which vaccinate people and testing centres which test people for covid
+   - could i know the list of all hospitals and vaccination centres and testing centres in Chennai
+   - could i know the list of all hospitals which treat covid, vaccination centres and testing centres in Chennai
+   - could i know the list of all hospitals, vaccination centres which vaccinate people and testing centres in Chennai
+   - could i know the list of all hospitals, vaccination centres and testing centres which does rtpcr test in Chennai
+   - could i know the list of all hospitals which treat covid, vaccination 
+
+   
