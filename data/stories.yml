@@ -28,3 +28,42 @@ stories:
   - action: utter_did_that_help
   - intent: deny
   - action: utter_goodbye
+
+- story: covid_awarness124
+  steps:
+  - intent: covid_awarness
+  - action: utter_covid_awarness
+  - intent: covid_awarness2
+  - action: utter_covid_awarness2
+  - intent: covid_awarness3
+  - action: utter_covid_awarness3
+  - intent: utter_covid_awarness4
+  - action: utter_covid_awarness4
+
+- story: symptoms2vaccicenters
+  steps:
+  - intent: symptoms_covid
+  - action: utter_symptoms_covid
+  - intent: things_2know
+  - action: utter_things_2know 
+  - intent: articles_change
+  - action: utter_articles_change
+  - intent: hospital_vaccicenters
+  - action: utter_hospital_vaccicenters
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
